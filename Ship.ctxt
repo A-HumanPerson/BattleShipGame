@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Ship
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Ship\ here.\r\n\r\n\ @author\ Jacob\ Katz\r\n\ @version\ 2025-05-08\r\n
+comment1.params=l\ sR\ sC\ isH
+comment1.target=Ship(int,\ int,\ int,\ boolean)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Ship\r\n
+comment2.params=row\ col
+comment2.target=boolean\ occupies(int,\ int)
+comment2.text=\r\n\ Checks\ if\ the\ point\ described\ by\ the\ parameters\ row\ and\ col\ is\ occupied\ by\ the\ ship\r\n\ Helped\ by\ AI\r\n\r\n\ @param\ row\ \ \ The\ row\ being\ checked\r\n\ @param\ col\ \ \ The\ column\ being\ checked\r\n\ @return\ \ \ \ \ \ If\ the\ point\ described\ by\ the\ parameters\ is\ occupied\r\n
+comment3.params=row\ col
+comment3.target=boolean\ isHit(int,\ int)
+comment3.text=\r\n\ Marks\ the\ part\ of\ the\ ship\ at\ the\ specified\ row\ and\ column\ as\ hit,\ if\ occupied.\r\n\ Helped\ by\ AI\r\n\r\n\ @param\ row\ The\ row\ to\ check\ and\ mark.\r\n\ @param\ col\ The\ column\ to\ check\ and\ mark.\r\n\ @return\ true\ if\ the\ ship\ occupies\ the\ given\ position\ and\ it\ was\ marked\ as\ hit,\ false\ otherwise.\r\n
+comment4.params=
+comment4.target=boolean\ isSunk()
+comment4.text=\r\n\ Checks\ if\ the\ ship\ has\ been\ sunk,\ meaning\ all\ its\ parts\ have\ been\ hit.\r\n\ \r\n\ @return\ true\ if\ every\ segment\ of\ the\ ship\ is\ hit,\ false\ otherwise.\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ Returns\ a\ string\ representation\ of\ the\ ship,\ showing\ its\ length\ and\ the\ grid\ points\ it\ occupies,\ along\ with\ their\ hit\ status.\r\n\ Occupied\ points\ function\ helped\ by\ AI\r\n\r\n\ @return\ A\ string\ showing\ the\ ship's\ length\ and\ all\ occupied\ points\ with\ hit\ status.\r\n
+numComments=6
